@@ -113,7 +113,7 @@ for chat_id, chat_history in sorted_chat_histories:
         if not isinstance(user_query_preview, str):
             user_query_preview = str(user_query_preview)
         
-        col1, col2 = st.columns([4, 1])  # Add columns for chat name and delete button
+        col1, col2 = st.columns([4, 1])  
         with col1:
             if st.button(user_query_preview, key=chat_id):
                 st.session_state["current_chat"] = chat_id
