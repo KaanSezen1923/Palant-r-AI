@@ -9,7 +9,7 @@ from gtts import gTTS
 import os
 import base64
 import speech_recognition as sr
-import json
+
 
 API_URL = "http://127.0.0.1:8000/ask"
 IMAGE_API_URL = "http://127.0.0.1:8000/get-image"
@@ -19,10 +19,10 @@ IMAGE_API_URL = "http://127.0.0.1:8000/get-image"
 st.set_page_config(page_title="Palantír AI")
 st.title("Palantír AI")
 
-firebase_config=st.secrets["lotr-rag-fca1a-9073b2d36152.json"]
+firebase_config=st.secrets["firebase_config"]
 
 if not firebase_admin._apps:
-    cred = credentials.Certificate(json.loads(firebase_config))
+    cred = credentials.Certificate(firebase_config)
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
