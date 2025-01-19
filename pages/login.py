@@ -2,8 +2,10 @@ import streamlit as st
 import firebase_admin
 from firebase_admin import credentials, auth
 
+firebase_config=st.secrets["service_account"]
+
 if not firebase_admin._apps:
-    cred = credentials.Certificate("lotr-rag-fca1a-9073b2d36152.json")
+    cred = credentials.Certificate(firebase_config)
     firebase_admin.initialize_app(cred)
 
 
