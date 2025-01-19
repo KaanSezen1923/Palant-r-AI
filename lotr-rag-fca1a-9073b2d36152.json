@@ -1,10 +1,9 @@
 {
     "type": "service_account",
     "project_id": "lotr-rag-fca1a",
-    "private_key_id": "9073b2d36152237a692f969050f9a87e87de5768",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCoi4geXazYj3AK\nTvfjTkFyh9rf3EUGG3LuXz9QufpmlLylaC0ZKBNIHCI5LRFYnQ/XzHhuEKQ2LQ3s\nB8sG7kdGnnF7R+tkj73MX5WzXv4yagv4HPxKy8ehiWIJXcxp7ux93t7UxeNuxL+E\n6vsnELOq7BIKLQKDGXhJyr/1nWDvxzYTUHVpkkdGPm4s7uuhZ9XUVsvC6V4mpXd0\nrSmDiFkhE6ste+LOYmsDCehRsQcBw362DQaXJyF4tl/aVNmj+qzSNbP1bBnjOsNH\nE7tvsO0BNgB0ZWo5XeqJ9zZ4hPmlZykRlkEHOg1xDfvk/6rZZZ/82Pbetyle7Qoy\ndE8RWXExAgMBAAECgf8TcONlzYJNH3YZCDbDm1AwWqfTyhSMloP7DXSE0foOPzsx\nrJVTLkajNVx6b9B7/nGnAYFZZLNnM1DGZUEeC4qYwaoz8HoW5eHQSxiL9rUj0Va1\nM2sPU0WQYgPCPVfh61nHmlr78OoNuZU0+Tscu1B00HDGHCvpXurnGfR5t3e35kv5\n4dpnh9hBXawu95T7wOMXSUMM5+r3pCxiaRN4Ww+sKwejD9bZqFPx1aFFhaTfov+7\nMNrmZiAgnyfu/pBNXrjLkJT7b5CiDkbGyBL+JpGMfcbFzhQQx1e8UYRDsZnGnrBc\ndaFP0+ZYQi3SGXQdbFYBJM8k8cH09A+5pTECy+cCgYEA5HWQxZOyPe0HB5lT8nGl\nrO7isKINzgcPfeZc/ewbf1O9KSXjjY8uGRzynSorvxOGo0SleUo1vwH0xeLeSOp0\n22m6AgE5L+suYK6vByv8aMkBiaPvbadS3vXWttHgnRQ4Hf+HW/qGA8wDw2TFm97K\nC76+k73QrWevrZvPQgKhjJMCgYEAvNz3Yfa7w5Y2VE6b8GFuuVqPQ57ORMR70H+j\n0Ke46GIfevzPsmuVqFXjclC7uboMdV8MZyJIjJPV8uIegzjfYclB1Urths3qfe6l\n027sxqcBtgyRCPAiJHU0HF1joW6quzMSjRIoPu4cnDQvg4pIQ1OjYnPjoLGQALPS\n8WF/KasCgYB/kZJUcSOfZqJ9QMXaZFFh3kag4OyadeDVqXOVqmi0UZsXxftpiWDx\nTvO+hNTGrm2I74UC1EhsrvfyI7uBtcGo30Gpaut28XkFLaW4eHxKOqtsIylH7p3c\nuCO8FDe7HpYzUgNQffSlXB9h1PxvDBmAM3ORZfWHTpWPeKhjsLpqlwKBgQCE608A\nF1JWeOWLuDdvmmL++IlTofSx2Ub6mpqEQ0aT5lsZh8v1WlpduvT0g3VbZWFXSanE\n/A/rQDCXXCT1XZV5kNdQcgdxlIKwVsFGaQ8jUG6X3YhFrhuZZRNj0yZHe0eVsIAh\n4OGKSLLCDMhT34K0P60BoWZWtiEPHYAcee2xOQKBgQDg5WP1WRVOy3B3B2YC2O5T\nD7jb5IHNKicSRp8HHGCCweUmpMJwKXTdHmC1eteCPhFTsEHKTVf96+xCulvEsSkT\nnJMUFF4tgG3qkVO1Dm5scwcVZpEI3ge7jf6gVnkcG6s+ktqriKgcY0GnWL7zC1xt\nCectdCaE7Tr8Bt6IURLMHQ==\n",
-    "client_email": "firebase-adminsdk-r5qso@lotr-rag-fca1a.iam.gserviceaccount.com",
-    "client_id": "116020750180556242545",
+    "private_key_id": "your private key id",
+    "private_key":" your private key"
+    "client_id": "your client id ",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
     "uth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
