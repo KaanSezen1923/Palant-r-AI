@@ -4,7 +4,7 @@ from firebase_admin import credentials, auth
 import json
 
 
-firebase_config=st.secrets["firebase_config"]
+firebase_config=dict(st.secrets["firebase_config"])
 
 
 
