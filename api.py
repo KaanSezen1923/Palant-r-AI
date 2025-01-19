@@ -10,9 +10,9 @@ from fastapi.responses import FileResponse
 import requests
 
 load_dotenv()
-gemini_api_key = os.getenv("GEMINI_API_KEY")
-API_KEY = os.getenv("API_KEY")
-CX = os.getenv("CX")
+gemini_api_key = st.secrets["GEMINI_API_KEY"]
+API_KEY = st.secrets["API_KEY"]
+CX = st.secrets["CX"]
 
 
 CHROMA_PATH = "Lotr_Chroma_Database"
