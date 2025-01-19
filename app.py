@@ -21,7 +21,7 @@ st.title("Palantír AI")
 firebase_config=st.secrets["lotr-rag-fca1a-9073b2d36152.json"]
 
 if not firebase_admin._apps:
-    cred = credentials.Certificate(firebase_config)
+    cred = credentials.Certificate(json.loads(firebase_config))
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
