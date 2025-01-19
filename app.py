@@ -18,8 +18,10 @@ IMAGE_API_URL = "http://127.0.0.1:8000/get-image"
 st.set_page_config(page_title="Palantír AI")
 st.title("Palantír AI")
 
+firebase_config=st.secrets["service_account"]
+
 if not firebase_admin._apps:
-    cred = credentials.Certificate("lotr-rag-fca1a-9073b2d36152.json")
+    cred = credentials.Certificate(firebase_config)
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
