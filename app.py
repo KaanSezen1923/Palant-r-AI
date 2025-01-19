@@ -21,8 +21,14 @@ st.title("Palantír AI")
 
 firebase_config=st.secrets["firebase_config"]
 
+file_path = "firebase_config.json"
+
+
+with open(file_path, "w") as json_file:
+    json.dump(firebase_config, json_file, indent=4)
+
 if not firebase_admin._apps:
-    cred = credentials.Certificate(firebase_config)
+    cred = credentials.Certificate(file_path)
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
