@@ -5,10 +5,17 @@ from firebase_admin import credentials, auth
 
 firebase_config=st.secrets["firebase_config"]
 
-if not firebase_admin._apps:
-    cred = credentials.Certificate(firebase_config)
-    firebase_admin.initialize_app(cred)
 
+
+file_path = "firebase_config.json"
+
+
+with open(file_path, "w") as json_file:
+    json.dump(firebase_config, json_file, indent=4)
+
+if not firebase_admin._apps:
+    cred = credentials.Certificate(file_path)
+    firebase_admin.initialize_app(cred)
 
 def login():
     with st.form("login"):
