@@ -20,7 +20,7 @@ IMAGE_API_URL = "http://127.0.0.1:8000/get-image"
 st.set_page_config(page_title="Palantír AI")
 st.title("Palantír AI")
 
-firebase_config=st.secrets["firebase_config"]
+firebase_config=dict(st.secrets["firebase_config"])
 
 file_path = "firebase_config.json"
 
