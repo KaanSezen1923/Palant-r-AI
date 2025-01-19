@@ -3,7 +3,7 @@ import firebase_admin
 from firebase_admin import credentials, auth
 import json
 
-firebase_config=st.secrets["lotr-rag-fca1a-9073b2d36152.json"]
+firebase_config=st.secrets["firebase_config]
 
 if not firebase_admin._apps:
     cred = credentials.Certificate(json.loads(firebase_config))
