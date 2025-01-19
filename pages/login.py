@@ -7,7 +7,7 @@ import json
 
 
 if not firebase_admin._apps:
-    cred = credentials.Certificate(dict(st.secrets["firebase_config"]))
+    cred = credentials.Certificate("lotr-rag-fca1a-9073b2d36152.json")
     firebase_admin.initialize_app(cred)
 
 def login():
