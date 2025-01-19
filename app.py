@@ -9,6 +9,7 @@ from gtts import gTTS
 import os
 import base64
 import speech_recognition as sr
+import json
 
 
 API_URL = "http://127.0.0.1:8000/ask"
